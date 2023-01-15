@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <form action="/pets" method="post">
+      <fieldset>
+          <div>
+              <label for="Name">Name</label>
+              <input type="text" name="pet_name" id="Name">
+          </div>
+          <div>
+              <label for="Type">Type</label>
+              <select name="pet_type" id="Type">
+                  <option value="Cat">Cat</option>
+                  <option value="Dog">Dog</option>
+                  <option value="Hamster">Hamster</option>
+                  <option value="Other">Other</option>
+                  <option value="Zebra">Zebra</option>
+              </select>
+          </div>
+          <div>
+              <label for="bio">Biography</label>
+              <textarea name="pet_bio" id="bio" rows="10" cols="30"></textarea>
+          </div>
+          <div>
+              <label for="email">Owner's Email</label>
+              <input type="text" id="owner-email" name="pet_owner_email">
+          </div>
+          <div>
+              <button type="submit" id="new-pet-submit-button">Create new pet</button>
+              <button type="reset">Reset</button>
+          </div>
+      </fieldset>
+</form>
+
+<div class="card">
+  <img src="images/desert.jpg" alt="" class="picture">
+  <div class="body">
+      <div>
+          <a href=""><img class="icon" src="images/person-avatar.jpg"></a>
+      </div>
+      <div class="details">
+          <h2 class="title">Title goes here</h2>
+          <h4 class="secondary">Secondary text</h4>
+      </div>
+      <p>Greyhound divisively hello coldy wonderfully marginally far upon excluding.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
